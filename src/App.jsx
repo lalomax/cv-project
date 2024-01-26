@@ -59,22 +59,10 @@ function App() {
                   Languages
                 </span>
                 <ul>
-                  {/* {data.languages.map((languages) => {
-                    const item = Object.entries(languages)
-                    console.log(item)
-                    // return <li class="mb-2">{item} <meter value={percentage} min="0" max="10">sdfsd</meter></li>;
-                  })} */}
-                  {/* {
-                    Object.keys(data.languages).forEach(function(key,index){
-                      // console.log(key,data.languages[key])
-                      (<li class="mb-2">{key} <meter value={data.languages[key]} min="0" max="10"></meter></li>)
-                    })
-                  } */}
                   {
-                    // console.log(Object.entries(data.languages))
-                    Object.entries(data.languages).map((key) => {
+                    Object.entries(data.languages).map((language) => {
                       // console.log(key,index)
-                      return <li class="mb-2">{key[0]} <meter value={key[1]} min="0" max="10"></meter></li>
+                      return <li class="mb-2">{language[0]} <meter value={language[1]} min="0" max="10"></meter></li>
                     })
                   }
                 </ul>

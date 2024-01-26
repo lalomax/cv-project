@@ -1,5 +1,8 @@
 # Responsive Resume
 
+![image](https://github.com/lalomax/cv-project/assets/95863162/d193b78a-a2cf-4d94-9009-c98a9005280f)
+
+
 This template provides a minimal setup to get a simple responsive resume using React, tailwindcss.
 
 ## Features

@@ -48,7 +48,7 @@ function App() {
                      {
                     // console.log(Object.entries(data.languages))
                     Object.entries(data.skills).map((skill) => {
-                      return <li class="mb-2">{skill[0]} <meter value={skill[1]} min="0" max="10"></meter></li>
+                      return <li class="mb-2">{skill[0]} <meter value={skill[1]} min="0" max="10" title={skill[1]}></meter></li>
                     })
                   }
                   </ul>
@@ -62,7 +62,7 @@ function App() {
                   {
                     Object.entries(data.languages).map((language) => {
                       // console.log(key,index)
-                      return <li class="mb-2">{language[0]} <meter value={language[1]} min="0" max="10"></meter></li>
+                      return <li class="mb-2">{language[0]} <meter value={language[1]} min="0" max="10" title={language[1]}></meter></li>
                     })
                   }
                 </ul>

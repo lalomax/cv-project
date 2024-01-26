@@ -42,9 +42,15 @@ function App() {
                     Skills
                   </span>
                   <ul>
-                    {data.skills.map((skill) => {
+                    {/* {data.skills.map((skill) => {
                       return <li class="mb-2">{skill}</li>;
-                    })}
+                    })} */}
+                     {
+                    // console.log(Object.entries(data.languages))
+                    Object.entries(data.skills).map((skill) => {
+                      return <li class="mb-2">{skill[0]} <meter value={skill[1]} min="0" max="10"></meter></li>
+                    })
+                  }
                   </ul>
                 </div>
               </div>

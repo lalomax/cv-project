@@ -4,14 +4,14 @@
   "urlphoto": "https://avatars.githubusercontent.com/u/95863162?v=4",
   "title": "Frontend Developer",
   "about": "Experience working with teams to produce impactful, cutting-edge websites that engage customers and deliver business results. Good understanding of design standards and user preferences.",
-  "skills": [
-    "JavaScript",
-    "React",
-    "React Native",
-    "HTML/CSS",
-    "Tailwindcss",
-    "SCRUM"
-  ],
+  "skills": {
+    "JavaScript": "9",
+    "React": "8",
+    "React Native": "6",
+    "HTML/CSS": "8",
+    "Tailwindcss": "7",
+    "SCRUM" : "6"
+  },
   "languages" : {
     "Spanish":"9",
     "English":"7",

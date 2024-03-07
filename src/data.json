@@ -6,17 +6,18 @@
   "about": "Experience working with teams to produce impactful, cutting-edge websites that engage customers and deliver business results. Good understanding of design standards and user preferences.",
   "skills": {
     "JavaScript": "9",
-    "TypeScript": "6",
+    "HTML/CSS": "9",
     "React": "8",
-    "React Native": "6",
-    "HTML/CSS": "8",
     "Tailwindcss": "7",
-    "SCRUM" : "6"
+    "React Native": "6",
+    "SCRUM" : "6",
+    "TypeScript": "5"
   },
   "languages" : {
     "Spanish":"9",
     "English":"7",
-    "Aymara":"5"
+    "Aymara":"5",
+    "portuguese" : "4"
   },
   "experience": [
     {

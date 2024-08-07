@@ -31,7 +31,7 @@ This application is built with the following technologies
     ```
 1. Open directory
    ```sh
-   cd switchmodes
+   cd cv-project
    ```
 2. Install dependencies using either npm or yarn:
     ```

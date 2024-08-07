@@ -26,17 +26,21 @@ This application is built with the following technologies
 ## Installation & Getting Started
 
 1. Clone the respository to your local machine.
-  ```sh
-  git clone https://github.com/lalomax/cv-project.git
-  ```
+    ```sh
+    git clone https://github.com/lalomax/cv-project.git
+    ```
+1. Open directory
+   ```sh
+   cd switchmodes
+   ```
 2. Install dependencies using either npm or yarn:
-  ```
-  npm install
-  ```
+    ```
+    npm install
+    ```
 3. Start the development server:
-  ```
-  npm run dev
-  ```
+    ```
+    npm run dev
+    ```
 
 ## Usage
 Personal data should be filled in the  `src/data.json`.

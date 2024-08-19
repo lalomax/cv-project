@@ -58,6 +58,18 @@ Contributions to this project are welcome. Please ensure to follow these guideli
 4. Push to the branch (git push origin feature/AmazingFeature)
 5. Create a new Pull Request
 
+```mermaid
+flowchart 
+    A(1. Clone the repository) --> B((Clone Fork))
+    B --> C{2. Create Feature Branch}
+    C --> D[Make Changes]
+    D --> E((3. Commit Changes))
+    E --> F((4. Push Changes))
+    F --> G((5. Create Pull Request))
+    G -- Approved --> H((Merge Pull Request))
+    G -- Rejected --> D
+```
+
 ## License Information
 Please see the included LICENSE file for more information.
 
